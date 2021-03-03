@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.conteiner {
+  width: 770px;
+  margin: 0px auto;
+  border: 1px solid red;
+}
+
+header {
+  background: #294C71 url('img/fundo.png') repeat-x left bottom;
+  height: 210px;
+}
+
+#logo{
+  border: 1px solid red;
+  float: left;
+  width: 590px;
+}
+
+#menu-horizontal {
+  margin-top: 30px;
+}
+
+#menu-horizontal ul {
+  width: 590px;
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  background-color: #8E052B;
+}
+
+#menu-horizontal ul li {
+  float: left;
+  width: 14.28%;
+}
+
+#menu-horizontal ul li a {
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  background: url('img/divisor.png') no-repeat left center;
+  color: white;
+}
+
+.seleciona {
+  background: #CA0D41;
+}
+
+#mapa {
+  width: 175px;
+  float: right;
+}
+ 

@@ -1,0 +1,226 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 16px, "Times News Roman", helvetica, lucida, sans-serif;
+}
+
+body {
+  background-color: white;
+  font-family: "Times New Roman", Helvetica, Lucida, sans-serif;
+  font-size: 16px;
+}
+
+/****************Cabeçalho*******************/
+header {
+  background: #294C71 url('img/fundo.png') repeat-x left bottom;
+  height: 240px;
+}
+
+.conteiner {
+  width: 680px;
+  margin: 0px auto;
+  position: relative;
+}
+
+#logo-menu {
+  float: left;
+  position: relative;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+#menu-horizontal ul {
+  list-style-type: none;
+  float: left;
+  margin-top: 30px;
+  background: #99032d;
+}
+
+#menu-horizontal ul li {
+  float: left;
+}
+
+#menu-horizontal ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  line-height: 40px;
+  background: url('img/divisor.png') no-repeat left center;
+}
+
+#menu-horizontal ul li a:hover {
+  color: black;
+}
+
+.seleciona {
+  background-color: #CA0D41;
+}
+
+#menu-horizontal ul li.seleciona a {
+  background: none;
+}
+
+#menu-horizontal ul li a.remove {
+  background: none;
+}
+
+#mapa {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+}
+
+/****************Corpo*******************/
+h3 {
+  background-color: #294C71;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+}
+
+h4 {
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #99032d;
+  padding: 3px;
+}
+
+.branco {
+  color: white;
+}
+
+#conteudo {
+  width: 520px;
+  float: right;
+  margin-bottom: 30px;
+}
+
+.caixa {
+  width: 220px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 40px;
+  float: left;
+  background: url('img/fundo-caixa.png') left top;
+}
+
+.caixa-interna {
+  width: 90%;
+  margin: 0px auto;
+  margin-bottom: 5px;
+  background-color: white;
+  padding-top: 1px;
+  padding: 5px;
+}
+
+.caixa-interna img {
+  width: 100%;
+}
+
+.caixa-interna p {
+  margin-top: 5px;
+}
+
+.caixa-interna a {
+  display: block;
+  text-decoration: none;
+  color: #CA0D41;
+  margin-top: 2px;
+}
+
+.caixa-interna a:hover {
+  text-decoration: underline;
+}
+
+.conteudo-caixa img {
+  width: 80px;
+  float: left;
+  margin-right: 6px;
+}
+
+.conteudo-caixa {
+  width: 100%;
+  height: 58px;
+  font-size: 13px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.conteudo-caixa h5 {
+  font-size: 13px;
+  color: #58ACFA;
+}
+
+.conteudo-caixa p {
+  color: black;
+}
+
+.conteudo-caixa a:hover {
+  text-decoration: none;
+}
+
+/******Menu Vertical********/
+
+.menu-vertical {
+  width: 160px;
+  margin-top: 40px;
+  float: left;
+  background: url('img/fundo-caixa.png') left top;
+}
+
+.caixa-vertical-conteudo {
+  background-color: white;
+  width: 90%;
+  margin: 0px auto 7px auto;
+}
+
+#menu-vertical-entrevista ul {
+  list-style-type: none;
+}
+
+#menu-vertical-entrevista ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 15px 0px 15px 8px;
+}
+
+#menu-vertical-entrevista ul li a:hover {
+  background: #CA0D41;
+  color: white;
+}
+
+#menu-vertical-news .caixa-interna {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 80%;
+  height: 30px;
+  padding-left: 4px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px;
+  border: 1px solid #ccc;
+  background: #CA0D41;
+  color: white;
+}
+
+/****Rodapé*****/
+footer {
+  clear: both;
+  background-color: #294C71;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 100px;
+}
